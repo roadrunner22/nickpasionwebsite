@@ -8,9 +8,11 @@ editor: visual
 
 #### Social Media and the Israel-Hamas War
 
-Social media has transformed the ways the public ingests information,
+Social media has transformed the ways the public ingests information. "The democratization of news," "horizontal information systems" and "lowered access barriers" are applicable statements (though, a bit overused, jargony and eye-roll inducing) to describe how we are increasingly learning about our contemporary world through the eyes of our peers. In war, the social media landscape has become the new battlefield. And in this paper, I dive into how that struggle is reaching a head in the Israel-Hamas war, where gory images, truth and credibility are stretched and deflated to fit the preferences of the countries, agencies and people producing and consuming them.
 
-Read it as a pdf [here](https://github.com/roadrunner22/nickpasionwebsite/blob/main/PAPER.docx.pdf).
+*Read it as a pdf [here](https://github.com/roadrunner22/nickpasionwebsite/blob/main/PAPER.docx.pdf). Or, read on.*
+
+\--
 
 Nobody understood the extent of the carnage. A missile reportedly collided into a hospital in the Gaza Strip, slaughtering hundreds of Palestinians who likely flocked to the facility to find refuge. Immediately after the strike, Palestinian officials, controlled by the militant group Hamas, blamed Israel for the deadly strike. Israel then flipped the blame onto Palestine, accusing their misfired rocket of causing the devastating blast. As the dust settled in the hours after the explosion, it seemed like nobody, including governments, the media, and most of all, the public, had a clear picture as to who fired the rocket. 
 
