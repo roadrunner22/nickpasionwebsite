@@ -1,0 +1,17 @@
+---
+title: "Homepage"
+format: html
+editor: visual
+---
+
+## Nick Pasion Portfolio
+
+#Welcome to my page. Take a gander.
+
+## Resume
+
+See my [resume](https://github.com/roadrunner22/nickpasionwebsite/blob/main/NickPasion_Resume.pdf).
+
+## My GitHub
+
+Git over here and look at my coding [hub](https://github.com/roadrunner22).

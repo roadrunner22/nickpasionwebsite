@@ -8,7 +8,9 @@ editor: visual
 
 #### Social Media and the Israel-Hamas War
 
-Read it as a pdf here.
+Social media has transformed the ways the public ingests information,
+
+Read it as a pdf [here](https://github.com/roadrunner22/nickpasionwebsite/blob/main/PAPER.docx.pdf).
 
 Nobody understood the extent of the carnage. A missile reportedly collided into a hospital in the Gaza Strip, slaughtering hundreds of Palestinians who likely flocked to the facility to find refuge. Immediately after the strike, Palestinian officials, controlled by the militant group Hamas, blamed Israel for the deadly strike. Israel then flipped the blame onto Palestine, accusing their misfired rocket of causing the devastating blast. As the dust settled in the hours after the explosion, it seemed like nobody, including governments, the media, and most of all, the public, had a clear picture as to who fired the rocket. 
 
