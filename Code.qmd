@@ -4,7 +4,7 @@ format: html
 editor: visual
 ---
 
-#Ok lets get it going. I'm going to be doing some analysis on income variables in my home state, Washington. Gotta load in the packages.
+#Ok lets get it going. I'm going to be doing some analysis on the percent of people living in each county who were born Washington, my home state. Gotta load in the packages.
 
 
 ```{r}
