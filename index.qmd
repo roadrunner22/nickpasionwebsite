@@ -10,6 +10,12 @@ editor: visual
 
 #Welcome to my page. Take a gander.
 
+![My friend Stefan (left) and I (right) with legendary D.C. journalist Kojo Nnamdi at the July 4 Palisades Parade in DC.](nickandkojo.jpg)
+
+I'm a senior at George Washington University studying Journalism and Mass Communication. I currently serve as the Managing Editor of The GW Hatchet, GW's independent student newspaper. I also have other various hobbies and traits, in line with my peers.
+
+\*\*\*
+
 ## Resume
 
 See my [resume](https://github.com/roadrunner22/nickpasionwebsite/blob/main/NickPasion_Resume.pdf).
@@ -17,3 +23,19 @@ See my [resume](https://github.com/roadrunner22/nickpasionwebsite/blob/main/Nick
 ## My GitHub
 
 Git over here and look at my coding [hub](https://github.com/roadrunner22).
+
+\*\*\*
+
+## My News Writing
+
+See a recent [article](https://roadrunner22.github.io/nickpasionwebsite/News Writing.html).
+
+## My Academic Writing
+
+It's similar to my news writing, but it's [worse](https://roadrunner22.github.io/nickpasionwebsite/Academic Writing.html).
+
+### Contact 
+
+Email - nvpasion\@gmail.com
+
+Twitter - [\@nicholaspasion](https://twitter.com/nicholaspasion?lang=en)

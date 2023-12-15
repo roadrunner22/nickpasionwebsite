@@ -1,0 +1,70 @@
+---
+title: "Washington"
+format: html
+editor: visual
+---
+
+#Ok lets get it going. I'm going to be doing some analysis on income variables in my home state, Washington. Gotta load in the packages.
+
+
+```{r}
+
+library(tidyverse)
+library(tigris)
+library(sf)
+library(tidycensus)
+library(htmltools)
+library(janitor)
+library(here)
+library(mapview)
+library(leafsync)
+library(leaflet.extras2)
+options(tigris_class = "sf")
+
+census_api_key("2a6f8c21a30d3024e038d67d7d4eba647dc79cd4", overwrite=TRUE, install = TRUE)
+
+censusvariables <- load_variables(2021, "acs5", cache = TRUE)
+
+
+
+```
+
+
+#I'm curious in seeing in counties around Washington, which of them are most likely to have inhabitants who were born in the state vs. those who were born outside of it.
+
+
+```{r}
+
+#loading in tidycensus variables 
+vars <- c(state_born = "B05002_003", total_pop = "B01003_001")
+
+#making the dataframe
+wa_born_pop <- get_acs(geography = "county",
+        variables = c(vars),
+        state = "WA",
+        output = "wide",
+        geometry = TRUE
+        )
+
+#cleaning the dataframe
+wa_born_pop <- wa_born_pop %>%
+  select(-ends_with("M"))
+
+colnames(wa_born_pop) <- sub("E$", "", colnames(wa_born_pop))
+
+wa_born_pop <- wa_born_pop %>%
+  mutate(percent_bornin_WA = (state_born / total_pop) * 100)
+
+#making the map
+mylabel <- glue::glue("{wa_born_pop$NAM} {wa_born_pop$percent_bornin_WA}")
+
+
+mapview(wa_born_pop, zcol = "percent_bornin_WA",
+        col.regions = RColorBrewer::brewer.pal(9, "Blues"),
+        label = mylabel)
+
+
+
+```
+
+
